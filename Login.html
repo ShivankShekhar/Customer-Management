@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Customer Management</title>
+    </head>
+
+    <style>
+        #const{
+            height: 45%;
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 15%;
+            background-color: #ffffff;  
+        }
+            ul {
+              list-style-type: none;
+              margin: 0; 
+              padding: 0px;
+              overflow: hidden;
+              background-color: rgb(21, 122, 255);
+            }
+            
+            li {
+              float: right; 
+              color: white; 
+              padding: 10px 10px;
+              text-align: center;    
+            }
+
+            li a { 
+              display: block;
+              color: white;
+              text-align: center; 
+              padding: 5px 5px;
+              text-decoration: none;   
+              
+            } 
+
+            li a:hover {
+              background-color: rgb(39, 110, 202);
+              color: white; 
+            }
+
+            .active{
+                background-color: rgba(124, 192, 212, 0.705);
+                color: #111;
+            }
+            </style>
+
+    <body style="background-color: black"> 
+        <div id="const">
+            <form>
+            <ul >
+                <img src="./images/cust.png" style="height: 40px; width: 40px;float:left; margin-top: 8px; margin-left:10px;" >
+                <b> <li><a class="active" href="login.html">Login</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Orders.html">Orders</a></li>
+                <li><a href="Customers.html">Customers</a></li>
+                <li style=" font-size:25px;float:left;">Customer Management</li></b>
+            </ul>
+
+        <br>
+        <h2><img src="./images/lock.png" style="height: 30px; width: 30px;">Login</h2> 
+            <table >
+                <tr>
+                    <td>Email : </td>
+                    <td><input type="text" name="email" /> </td>
+                </tr>
+                <tr>
+                    <td><br>Password : </td>
+                    <td><br><input type="password" name="email" /> </td>
+                </tr>
+                <tr><td><br><input type="button" value="Login" onclick="" style="color: #ffffff;; background: rgb(60, 144, 199); height: 30px; width: 55px"/></td></tr>
+            </table>
+        </form>
+    </div>
+    </body>
+</html>
